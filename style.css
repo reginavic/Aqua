@@ -1,0 +1,81 @@
+.hov:hover {
+    text-decoration: underline;
+}
+nav {
+background-color: #001E6C;
+}
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+header {
+    background-color: #122e74;
+}
+.head {
+    background-color:  #001E6C;;
+}
+.head:hover {
+    background-color: #8b9ece;
+}
+.top {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.main {
+    font-family: 'Roboto', sans-serif;
+}
+.dropdown-menu {
+    background-color: #002366;
+}
+.bg {
+    background-color: #001E6C;
+}
+.ad {
+    font-size: 20px;
+}
+.adv {
+    font-size: 30px;
+}
+.between {
+    margin-left: 5px;
+}
+.color {
+    background-color: #001E6C;
+    padding: 30px;
+}
+.tx {
+    color: silver;
+}
+.tx:hover {
+    color: white;
+}
+.txt {
+    color: silver;
+}
+.hv {
+    background-color:#001E6C;
+}
+.hv:hover {
+    background-color: #8b9ece;
+}
+.vh {
+    padding: 15px;
+}
+.come {
+    background-color: rgb(216, 233, 250);
+}
+.bl {
+    color: navy;
+}
+.fone {
+    background-image: url(water8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.In {
+    color: white;
+}
+.sign {
+    color: rgb(7, 7, 75);
+}
