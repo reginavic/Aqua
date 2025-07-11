@@ -69,7 +69,7 @@ header {
     color: navy;
 }
 .fone {
-    background-image: url(water8.jpg);
+    background-image: url(water8.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,4 +78,10 @@ header {
 }
 .sign {
     color: rgb(7, 7, 75);
+}
+
+@media only screen and (max-width: 700px) {
+    .ad {
+    font-size: 10px;
+}
 }
