@@ -1,87 +1,142 @@
 .hov:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 nav {
-background-color: #001E6C;
+  background-color: #02174a;
 }
 .navbar-nav {
-    float: none;
-    text-align: center;
+  float: none;
+  text-align: center;
 }
-header {
-    background-color: #122e74;
-}
-.head {
-    background-color:  #001E6C;;
+.head { 
+  background-color: #02174a;
+  margin-left: 15px;
 }
 .head:hover {
-    background-color: #8b9ece;
+  background-color: #011138;
+  color: white;
 }
 .top {
-    font-family: 'Mr Dafoe', cursive;
-    font-size: 50px;
-    margin-left: 20px;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 50px;
+  margin-left: 20px;
 }
 .main {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .dropdown-menu {
-    background-color: #002366;
+  background-color: #02174a;
 }
 .bg {
-    background-color: #001E6C;
+  background-color: #011138;
 }
 .ad {
-    font-size: 20px;
+  font-size: 20px;
 }
 .adv {
-    font-size: 30px;
+  font-size: 30px;
 }
 .between {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 .color {
-    background-color: #001E6C;
-    padding: 30px;
+  background-color:#02174a;
+  padding: 30px;
 }
 .tx {
-    color: silver;
+  color: silver;
 }
 .tx:hover {
-    color: white;
+  color: white;
 }
 .txt {
-    color: silver;
+  color: silver;
 }
 .hv {
-    background-color:#001E6C;
+  background-color: #02174a;
+  width: 200px;
 }
 .hv:hover {
-    background-color: #8b9ece;
+  background-color: #011138;
 }
 .vh {
-    padding: 15px;
+  padding: 10px;
+  width: 200px;
 }
 .come {
-    background-color: rgb(216, 233, 250);
+  background-color: rgb(216, 233, 250);
 }
 .bl {
-    color: navy;
+  color: #02174a;
 }
 .fone {
-    background-image: url(water8.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(water8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #011138;
 }
 .In {
-    color: white;
+  color: white;
 }
 .sign {
-    color: rgb(7, 7, 75);
+  color: #02174a;
+}
+.cont {
+  filter: brightness(60%)
+}
+.loginbtn {
+  background-color: #02174a;
+  color: white;
+}
+.loginbtn:hover {
+  background-color: #011138;
+  color: white;
 }
 
 @media only screen and (max-width: 700px) {
-    .ad {
+.top {
+    font-size: 30px;
+}
+.container {
+    margin:20px;
+}
+.ad {
     font-size: 10px;
+}
+h1 {
+    font-size: 20px;
+}
+.hv {
+    font-size: 10px;
+}
+.between {
+    margin: 10px;
+}
+.featurette-heading {
+    font-size: 24px;
+    margin-top: -50px;
+}
+.lead{
+    font-size: 16px;
+}
+.pictures {
+    width: 440px;
+    height: 240px;
+}
+.fbg {
+    width: 480px;
+    margin-left: 5px;
+}
+.bl {
+    font-size: 26px;
+}
+.vh {
+    padding: 5px;
+    width: 200px;
+}
+.vid {
+    width: 480px;
+    height: 240px;
+    margin-left: 5px;
 }
 }
