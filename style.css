@@ -65,9 +65,13 @@ nav {
 }
 .come {
   background-color: rgb(216, 233, 250);
+  width: auto;
 }
 .bl {
   color: #02174a;
+}
+.vid {
+  width: auto;
 }
 .fone {
   background-image: url(water8.jpg);
@@ -93,6 +97,81 @@ nav {
   color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+.top {
+    font-size: 30px;
+}
+.pictures {
+    width: 940px;
+    height: 200px;
+}
+.between{
+    display: flex;
+    justify-content: center;
+}
+.come {
+    width: 1020px;
+    margin-left: 5px;
+}
+.vid {
+    width: 1020px;
+    height: 220px;
+}
+}
+@media only screen and (max-width: 912px) {
+.pictures {
+    width: 840px;
+    height: 200px;
+}
+.come {
+    width: 890px;
+    margin-left: 15px;
+}
+.vid {
+    width: 890px;
+    height: 220px;
+    margin-left: 15px;
+}
+}
+@media only screen and (max-width: 875px) {
+.pictures {
+    width: 840px;
+    height: 200px;
+}
+.come {
+    width: 810px;
+}
+.vid {
+    width: 810px;
+    height: 220px;
+}
+}
+@media only screen and (max-width: 768px) {
+.pictures {
+    width: 740px;
+    height: 200px;
+}
+.come {
+    width: 758px;
+}
+.vid {
+    width: 758px;
+    height: 220px;
+}
+}
+@media only screen and (max-width: 750px) {
+.pictures {
+    width: 740px;
+    height: 200px;
+}
+.come {
+    width: 700px;
+}
+.vid {
+    width: 700px;
+    height: 220px;
+}
+}
 @media only screen and (max-width: 700px) {
 .top {
     font-size: 30px;
@@ -120,12 +199,15 @@ h1 {
     font-size: 16px;
 }
 .pictures {
-    width: 440px;
+    width: 500px;
     height: 240px;
 }
 .fbg {
     width: 480px;
     margin-left: 5px;
+}
+.come {
+    width: 500px;
 }
 .bl {
     font-size: 26px;
@@ -138,5 +220,186 @@ h1 {
     width: 480px;
     height: 240px;
     margin-left: 5px;
+}
+}
+@media only screen and (max-width: 550px) {
+.navbar {
+    padding: 3px;
+}
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+.navbar-collapse, .navbar-toggler {
+    font-size: 16px;
+}
+.top {
+    font-size: 20px;
+}
+.adtit {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.ad {
+    font-size: 8px;
+}
+.hv {
+    font-size: 6px;
+    padding: 5px;
+}
+.pictures {
+    width: 500px;
+    height: 200px;
+}
+.come {
+    width: 520px;
+    margin-left: 15px;
+}
+.bl {
+    font-size: 24px;
+}
+.vid {
+    width: 520px;
+    height: 240px;
+    margin-left: 15px;
+}
+.tx {
+    font-size: 14px;
+}
+.txt {
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 440px) {
+.pictures {
+    width: 420px;
+    height: 200px;
+}
+.come {
+    width: 420px;
+    margin-left: 5px;
+}
+.bl {
+    font-size: 24px;
+}
+.vid {
+    width: 420px;
+    height: 240px;
+    margin-left: 5px;
+}
+}
+@media only screen and (max-width: 420px) { 
+.pictures {
+    width: 410px;
+    height: 200px;
+}
+.come {
+    width: 400px;
+}
+.bl {
+    font-size: 22px;
+}
+.vid {
+    width: 400px;
+    height: 220px;
+}
+}
+@media only screen and (max-width: 414px) { 
+.pictures {
+    width: 400px;
+    height: 200px;
+}
+.come {
+    width: 400px;
+}
+.bl {
+    font-size: 22px;
+}
+.vid {
+    width: 400px;
+    height: 220px;
+}
+}
+@media only screen and (max-width: 400px) {
+.top {
+    font-size: 18px;
+}
+.pictures {
+    width: 390px;
+    height: 200px;
+}
+.come {
+    width: 380px;
+}
+.bl {
+    font-size: 22px;
+}
+.vid {
+    width: 380px;
+    height: 240px;
+}
+} 
+@media only screen and (max-width: 378px) {
+.adtit {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.pictures {
+    width: 360px;
+    height: 200px;
+}
+.come {
+    width: 365px;
+}
+.bl {
+    font-size: 22px;
+}
+.vid {
+    width: 365px;
+    height: 220px;
+}
+.tx {
+    font-size: 10px;
+}
+.txt {
+    font-size: 10px;
+}
+}
+@media only screen and (max-width: 360px) {
+.pictures {
+    width: 350px;
+    height: 200px;
+}
+.come {
+    width: 350px;
+}
+.bl {
+    font-size: 22px;
+}
+.vid {
+    width: 350px;
+    height: 220px;
+}
+}
+@media only screen and (max-width: 345px) {
+.adtit {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.pictures {
+    width: 340px;
+    height: 200px;
+}
+.come {
+    width: 330px;
+}
+.bl {
+    font-size: 22px;
+}
+.vid {
+    width: 330px;
+    height: 220px;
 }
 }
